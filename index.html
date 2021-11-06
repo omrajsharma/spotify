@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li class="brand"><img src="assets/images/logo.png" alt="spotify"> Spotify </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <!-- CONTAINER -->
+    <div class="container">
+        <div class="songList">
+            <h1>Omraj's favourite songs</h1>
+            <div class="songItemContainer">
+                <!-- SONG ITEMS -->
+                <div class="songItem">
+                    <img src="assets/songs/01-aadat-atif-aslam.jpg" alt="1">
+                    <span class="songName">Aadat </span>
+                    <span class="songlistplay"> <span class="timestamp"> <i id="0" class="songItemPlay far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="assets/songs/01-aadat-atif-aslam.jpg" alt="1">
+                    <span class="songName">Aadat </span>
+                    <span class="songlistplay"> <span class="timestamp"> <i id="1" class="songItemPlay far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="assets/songs/01-aadat-atif-aslam.jpg" alt="1">
+                    <span class="songName">Aadat </span>
+                    <span class="songlistplay"> <span class="timestamp"> <i id="2" class="songItemPlay far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="assets/songs/01-aadat-atif-aslam.jpg" alt="1">
+                    <span class="songName">Aadat </span>
+                    <span class="songlistplay"> <span class="timestamp"> <i id="3" class="songItemPlay far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="assets/songs/01-aadat-atif-aslam.jpg" alt="1">
+                    <span class="songName">Aadat </span>
+                    <span class="songlistplay"> <span class="timestamp"> <i id="4" class="songItemPlay far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="assets/songs/01-aadat-atif-aslam.jpg" alt="1">
+                    <span class="songName">Aadat </span>
+                    <span class="songlistplay"> <span class="timestamp"> <i id="5" class="songItemPlay far fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="assets/songs/01-aadat-atif-aslam.jpg" alt="1">
+                    <span class="songName">Aadat </span>
+                    <span class="songlistplay"> <span class="timestamp"> <i id="6" class="songItemPlay far fa-play-circle"></i> </span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <!-- icons -->
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="assets/images/playing.gif" id="wave" width="45px" alt=""> 
+            <span id="masterSongName"></span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/0eb768eb70.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

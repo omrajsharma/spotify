@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+body{
+    background-color:rgb(44, 44, 44);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR */
+nav{
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 5px 10px rgb(32, 32, 32);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 8vh;
+    background-color: rgb(14, 14, 14);
+    color: white;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTAINER */
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 35px;
+    background-image: url('assets/images/bg.jpg');
+}
+
+
+.songItem{
+    height: 5vh;
+    display: flex;
+    background-color: #1dd760;
+    color: black;
+    font-weight: 500;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+.songItemContainer{
+    margin-top: 50px;
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 25px;
+    border-radius: 100px;
+}
+
+.timestamp i{
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* BOTTOM */
+.bottom{
+    position: sticky;
+    height: 12vh;
+    background-color: black;
+    color: white;
+    bottom: 5px;
+    border-radius: 50px;
+    box-shadow: 0 0 30px 0.5px #333333;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 1vh;
+    color: #1dd760;
+}
+
+.icons i{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+    background-color: #1dd760;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: 0.8s;   
+}
